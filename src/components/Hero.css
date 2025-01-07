@@ -47,17 +47,17 @@
     gap: 2rem;
   }
 
-  .heroImgMobile {
+  .hero .heroImgMobile {
     display: none;
   }
 
-  .heroImgDesktop {
+  .hero .heroImgDesktop {
     display: block;
     max-width: 700px;
     height: auto;
   }
 
-  .heroContent {
+  .hero .heroContent {
     display: flex;
     flex-direction: row;
     margin-top: 1rem;
@@ -65,11 +65,11 @@
     align-items: flex-start;
   }
 
-  .heroTitle {
+  .hero .heroTitle {
     margin-top: 0;
   }
 
-  .heroBreak {
+  .hero .heroBreak {
     display: none;
   }
 }

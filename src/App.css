@@ -90,7 +90,7 @@ select {
   --Very-dark-blue: hsl(240, 100%, 5%);
 }
 
-body {
+html body {
   background-color: var(--Off-white);
   font-family: "Inter", serif;
   font-size: 15px;
