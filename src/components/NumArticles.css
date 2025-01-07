@@ -1,0 +1,71 @@
+.dynamicArticles {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.dynArticle {
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.dynArtImg {
+  margin-right: 1.5rem;
+  max-width: 100px;
+  min-height: 100%;
+}
+
+.dynArtID {
+  color: var(--Soft-red);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.dynArtTopic {
+  font-weight: 800;
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.dynArtTopic:hover {
+  color: var(--Soft-red);
+  cursor: pointer;
+}
+
+.dynArtText {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--Dark-grayish-blue);
+}
+
+/* For Desktop */
+@media (min-width: 376px) {
+  .dynamicArticles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .dynArtImg {
+    width: 4.5rem;
+    height: 5rem;
+  }
+
+  .dynArtID {
+    font-size: 1.2rem;
+  }
+
+  .dynArtTopic {
+    font-size: 0.8rem;
+  }
+
+  .dynArtText {
+    font-size: 0.7rem;
+  }
+
+  .dynArtContent {
+    max-width: 170px;
+  }
+}

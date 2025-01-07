@@ -1,0 +1,42 @@
+.newArticle {
+  background-color: var(--Very-dark-blue);
+  padding: 1rem;
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+}
+
+.newTitle {
+  color: var(--Soft-orange);
+  font-weight: 700;
+  margin-bottom: 1.3rem;
+}
+
+.newHeading {
+  color: var(--Off-white);
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+.newHeading:hover {
+  cursor: pointer;
+  color: var(--Soft-orange);
+}
+
+.newText {
+  color: var(--Grayish-blue);
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+}
+
+.newArticleBreak {
+  color: var(--Off-white);
+}
+
+/* For Desktop */
+@media (min-width: 376px) {
+  .newArticle {
+    margin-top: 0;
+  }
+}
