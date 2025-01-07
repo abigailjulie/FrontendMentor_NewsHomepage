@@ -98,7 +98,7 @@ html body {
 }
 
 @media (min-width: 376px) {
-  body {
+  html body {
     margin: 1rem 15rem;
   }
 }
