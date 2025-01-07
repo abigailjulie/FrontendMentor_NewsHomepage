@@ -1,13 +1,10 @@
 import Home from "./pages/Home.jsx";
-import "./App.jsx";
+import "./App.css";
 
-function App() {
-
+export default function App() {
   return (
     <>
-      <Home/>
+      <Home />
     </>
-  )
+  );
 }
-
-export default App
